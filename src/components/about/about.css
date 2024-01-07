@@ -1,7 +1,7 @@
 .about {
     padding: 4rem;
     background-color: #fff;
-    border-bottom: #00A99D 2px solid;
+    border-bottom: #92590a 2px solid;
     @media(max-width: 576px){
         padding: 3rem;
     }
@@ -44,7 +44,7 @@
 }
 .about-link {
     padding: 1.5rem 2rem;
-    background-color: #00A99D;
+    background-color: #92590a;
     color: #fff;
     border: none;
     border-radius: 8px;

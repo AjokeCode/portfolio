@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    color: #c97d13;
 }
 .contact-header {
     font-size: 2.5rem;

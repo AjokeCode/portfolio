@@ -12,7 +12,7 @@ const Project =()=>{
     return(
         <div className="project" id='project'>
             <h1 className='project-header'>
-                Projects have built
+                My Projects so far
             </h1>
             <div className="projects">
                 <div className='project-1'>

@@ -19,7 +19,7 @@
 .navbar.active {
     /* background-image: linear-gradient(to right bottom, #00A99D, #B6CDE2);
      */
-     background-color: #00a99d;
+     background-color: #000;
 }
 .navbar-left-header {
     font-size: 3.2rem;

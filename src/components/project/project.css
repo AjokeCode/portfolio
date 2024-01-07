@@ -7,7 +7,8 @@
     line-height: 8rem;
     font-weight: 600;
     text-align: center;
-    color: #00A99D;
+    /* color: #00A99D; */
+    color: #000;
     @media(max-width: 576px){
        font-size: 2rem;
        line-height: 4rem;
@@ -59,7 +60,7 @@
     font-size: 2rem;
     font-weight: 600;
     line-height: 6rem;
-    color: #00A99D;
+    color: #c97d13;
     @media(max-width: 576px){
         line-height: 3rem;
     }
@@ -79,7 +80,7 @@
     font-weight: bold;
     line-height: 2rem;
     margin-bottom: 1rem;
-    color: #00A99D;
+    color: #c97d13;
     cursor: pointer;
     
 }
