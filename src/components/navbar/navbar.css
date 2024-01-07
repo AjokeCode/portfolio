@@ -1,0 +1,116 @@
+.navbar {
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    padding: 0 6rem;
+
+
+    @media(max-width: 769px){
+        padding:  0 3rem;
+    }
+}
+.navbar.active {
+    /* background-image: linear-gradient(to right bottom, #00A99D, #B6CDE2);
+     */
+     background-color: #00a99d;
+}
+.navbar-left-header {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.684rem;
+    color: #ffffff;
+    margin-left: 1.5rem;
+    @media(max-width:769px){
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-left: 1rem;
+         
+    }
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+
+}
+.navbar-left-img {
+    width: 6rem;
+    @media(max-width: 769px){
+        width: 4rem;
+    }
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    @media(max-width: 769px){
+        display: none;
+    }
+}
+.navbar-lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: #00a99d;
+}
+.navbar-item {
+    margin-left: 2rem;
+    font-size: 1.6rem;
+    line-height: 2.112rem;
+    font-weight: 600;
+    cursor: pointer;
+    @media(max-width: 769px){
+        margin-left: 0;
+        font-size: 1.2rem;
+        line-height: 2rem;
+
+    }
+    
+}
+.navbar-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+.mobile {
+    padding: 13rem 0 2rem 0;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin-right: -2rem;
+
+}
+.open {
+    display: none;
+    @media(max-width: 769px){
+        display: block;
+        font-size: 4rem;
+        cursor: pointer;
+        color: #fff;}
+       
+}
+.none {
+    display: none;
+}
+.navbar-items {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+.close {
+    color: #00a99d;
+    font-size: 4rem;
+    cursor: pointer;
+    align-self: flex-end;
+}
