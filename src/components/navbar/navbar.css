@@ -17,7 +17,7 @@
     }
 }
 .navbar.active {
-    /* background-image: linear-gradient(to right bottom, #00A99D, #B6CDE2);
+    /* background-image: linear-gradient(to right bottom, #c97d13, #B6CDE2);
      */
      background-color: #000;
 }
@@ -61,7 +61,7 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    color: #00a99d;
+    color: #c97d13;
 }
 .navbar-item {
     margin-left: 2rem;
@@ -109,7 +109,7 @@
     line-height: 2.2rem;
 }
 .close {
-    color: #00a99d;
+    color: #c97d13;
     font-size: 4rem;
     cursor: pointer;
     align-self: flex-end;

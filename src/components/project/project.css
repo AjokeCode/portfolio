@@ -12,6 +12,7 @@
     @media(max-width: 576px){
        font-size: 2rem;
        line-height: 4rem;
+       margin-top: 1.3rem;
     }
 }
 .projects {
