@@ -12,7 +12,7 @@
     padding: 0 6rem;
 
 
-    @media(max-width: 769px){
+    @media(max-width: 576px){
         padding:  0 3rem;
     }
 }
@@ -27,7 +27,7 @@
     line-height: 3.684rem;
     color: #ffffff;
     margin-left: 1.5rem;
-    @media(max-width:769px){
+    @media(max-width:576px){
         font-size: 2rem;
         line-height: 3rem;
         margin-left: 1rem;
@@ -41,7 +41,7 @@
 }
 .navbar-left-img {
     width: 6rem;
-    @media(max-width: 769px){
+    @media(max-width: 576px){
         width: 4rem;
     }
 }
@@ -51,7 +51,7 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    @media(max-width: 769px){
+    @media(max-width: 576px){
         display: none;
     }
 }
@@ -69,7 +69,7 @@
     line-height: 2.112rem;
     font-weight: 600;
     cursor: pointer;
-    @media(max-width: 769px){
+    @media(max-width: 576px){
         margin-left: 0;
         font-size: 1.2rem;
         line-height: 2rem;
@@ -93,7 +93,7 @@
 }
 .open {
     display: none;
-    @media(max-width: 769px){
+    @media(max-width: 576px){
         display: block;
         font-size: 4rem;
         cursor: pointer;
