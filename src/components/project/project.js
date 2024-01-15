@@ -3,7 +3,8 @@ import img1 from './BDS.PNG';
 import img2 from './empylo.PNG';
 import img3 from './natour.PNG';
 import img4 from './getlinked.PNG';
-import img5 from './trackit.PNG'
+import img5 from './trackit.PNG';
+import img6 from './zamgleam.PNG';
 
 const Project =()=>{
     const handleURL =(url)=>{
@@ -69,6 +70,17 @@ const Project =()=>{
                         <p className='p1-text'>Technologies used: HTML, CSS and Javascript</p>
                         <a className='p1-text2' href='' onClick={()=> handleURL('https://github.com/AjokeCode/mapty-project')}>Github link</a>
                         <a className='p1-text2' href='' onClick={()=> handleURL('https://trackyouractivities.netlify.app/')}>Live link</a>
+                    </div>
+                </div>
+                <div className='project-1'>
+                    <div className='project-left'>
+                    <img src={img6} alt='bds' className='project-img'/></div>
+                    <div className='project-right'>
+                        <h2 className='p1-header'>GamGleam- An E-Commerce App</h2>
+                        <p className='p1-text'>Shop smart! Shop easy.</p>
+                        <p className='p1-text'>Technologies used: ReactJs and vanilla CSS</p>
+                        <a className='p1-text2' href='' onClick={()=> handleURL('https://github.com/AjokeCode/E-commerce-app')}>Github link</a>
+                        <a className='p1-text2' href='' onClick={()=> handleURL('https://e-commerce-app-eight-zeta.vercel.app/')}>Live link</a>
                     </div>
                 </div>
             </div>
