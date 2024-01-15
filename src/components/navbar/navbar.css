@@ -56,15 +56,13 @@
     }
 }
 .navbar-lists {
-    display: none;
-    @media(max-width: 576px){
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     list-style: none;
     color: #c97d13;
-    }
+    
 }
 .navbar-item {
     margin-left: 2rem;
@@ -82,6 +80,7 @@
     text-decoration: none;
 }
 .mobile {
+    display: none;
     @media(max-width: 576px){
     padding: 13rem 0 2rem 0;
     width: 30rem;
@@ -106,11 +105,10 @@
     display: none;
 }
 .navbar-items {
-    @media(max-width: 576px){
         margin-bottom: 1rem;
         font-size: 1.5rem;
         line-height: 2.2rem;  
-}
+
 }
 .close {
     color: #c97d13;
