@@ -19,11 +19,10 @@
 .about-div-text{
     font-size: 2rem;
     line-height: 3.5rem;
-    /* width: 60%; */
     text-align: center;
     @media(max-width: 576px){
-        font-size: 1.2rem;
-        line-height: 2rem;
+        font-size: 1rem;
+        line-height: 1.6rem;
     }
 }
 .about-header-2 {

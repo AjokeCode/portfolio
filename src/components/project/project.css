@@ -63,6 +63,7 @@
     line-height: 6rem;
     color: #c97d13;
     @media(max-width: 576px){
+        font-size: 1.5rem;
         line-height: 3rem;
     }
 }
@@ -83,5 +84,9 @@
     margin-bottom: 1rem;
     color: #c97d13;
     cursor: pointer;
+    @media(max-width: 576px){
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
     
 }

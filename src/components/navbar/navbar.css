@@ -80,8 +80,6 @@
     text-decoration: none;
 }
 .mobile {
-    display: none;
-    @media(max-width: 576px){
     padding: 13rem 0 2rem 0;
     width: 30rem;
     height: 30rem;
@@ -89,16 +87,23 @@
     flex-direction: column;
     background-color: #FFFFFF;
     margin-right: -2rem;
-    }
 
 }
 .open {
     display: none;
+        @media(min-width: 577px) and (max-width:767px){
+            display: block;
+            font-size: 4rem;
+            cursor: pointer;
+            color: #fff;
+           
+    }
     @media(max-width: 576px){
         display: block;
-        font-size: 4rem;
+        color: #fff;
+        font-size: 3.5rem;
         cursor: pointer;
-        color: #fff;}
+        }
        
 }
 .none {
