@@ -20,11 +20,11 @@ const About = ()=>{
                     </p>
                     <h2 className='about-header-2'>"Evoking ideas into sophisticated solutions."</h2>
                     <div className='about-links'>
-                    <button className='about-link' > <a href = {pdf} target = "_blank" className='resume'>Resume</a></button>
+                 <a href = {pdf} target = "_blank" rel= "noreferrer" className='about-link resume '>Resume</a>
+
                     <button className='about-link' onClick={()=>handleURL('https://github.com/AjokeCode')}>Github</button>
                     </div>
                 </div>
-            </div>
-    )
+            </div>)
 }
 export default About;

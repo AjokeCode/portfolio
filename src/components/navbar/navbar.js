@@ -30,9 +30,9 @@ const Navbar = ()=>{
                 <li className="navbar-item"><Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className="navbar-link">Contact me</Link></li>
             </ul>
             <BsListNested
-                className={`${isTrue ? 'none' : ''} open`}
-                onClick={() => setIsTrue(true)}
-      />
+            className={`${isTrue ? 'none' : ''} open`}
+            onClick={() => setIsTrue(true)}
+            />
 
             {
                 isTrue ? (<div className="mobile">

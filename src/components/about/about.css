@@ -3,7 +3,7 @@
     background-color: #fff;
     border-bottom: #92590a 2px solid;
     @media(max-width: 576px){
-        padding: 3rem;
+        padding: 2rem;
     }
 }
 .about-header {
