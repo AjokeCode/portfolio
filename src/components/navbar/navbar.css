@@ -51,9 +51,18 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    @media(min-width: 577px) and (max-width:767px){
+        display: none;
+       
+}
+@media(min-width: 768px) and (max-width:991px){
+        font-size: 1.3rem;
+        margin-left: 1rem;
+           
+}
     @media(max-width: 576px){
         display: none;
-    }
+}
 }
 .navbar-lists {
     display: flex;
@@ -70,18 +79,7 @@
     line-height: 2.112rem;
     font-weight: 600;
     cursor: pointer;
-    @media(min-width: 577px) and (max-width:767px){
-        display: none;
-       
-}
-@media(min-width: 768px) and (max-width:991px){
-        font-size: 1.3rem;
-        margin-left: 1rem;
-           
-}
-    @media(max-width: 576px){
-        display: none;
-}
+ 
 }
 .navbar-link {
     color: #ffffff;
@@ -99,19 +97,12 @@
 }
 .open {
     display: none;
-        @media(min-width: 577px) and (max-width:767px){
-            display: block;
-            font-size: 4rem;
-            cursor: pointer;
-            color: #fff;
-           
-    }
-    @media(max-width: 576px){
+    @media(max-width: 767px){
         display: block;
         color: #fff;
         font-size: 3.5rem;
         cursor: pointer;
-        }
+    }
        
 }
 .none {

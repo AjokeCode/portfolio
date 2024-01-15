@@ -35,7 +35,9 @@ const Navbar = ()=>{
             />
 
             {
-                isTrue ? (<div className="mobile">
+                isTrue ? (
+
+                <div className="mobile">
                 <AiOutlineClose onClick={()=> setIsTrue(false)} className="close"/>
                 <ul className="navbar-lists">
                 <li className="navbar-items" ><Link to="home" spy={true} smooth={true}  duration={500} className="navbar-links">Home</Link></li>
