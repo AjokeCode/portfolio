@@ -96,7 +96,7 @@
     display: none;
     @media(max-width:769px){
         display: block;
-        color: #fff;
+        color: #ffffff;
         font-size: 4rem;
         cursor: pointer;
     }
