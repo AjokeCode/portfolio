@@ -94,14 +94,11 @@
 }
 .open {
     display: none;
-    @media(min-width: 577px) and (max-width:767px){
+    @media(max-width:769px){
         display: block;
         color: #fff;
         font-size: 4rem;
         cursor: pointer;
-    }
-    @media(max-width: 576px){
-        font-size: 3.5rem;
     }
 }
 .none {
