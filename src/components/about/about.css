@@ -22,7 +22,6 @@
     text-align: center;
     @media(max-width: 769px){
         font-size: 1.3rem;
-        
     }
 }
 .about-header-2 {

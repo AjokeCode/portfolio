@@ -94,10 +94,10 @@
 }
 .open {
     display: none;
-    @media(max-width: 769px){
+    @media(min-width: 577px) and (max-width:767px){
         display: block;
         color: #fff;
-        font-size: 3.5rem;
+        font-size: 4rem;
         cursor: pointer;
     }
 }
