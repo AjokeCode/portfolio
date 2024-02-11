@@ -4,15 +4,14 @@
 }
 .project-header {
     font-size: 3rem;
-    line-height: 8rem;
+    line-height: normal;
     font-weight: 600;
     text-align: center;
     /* color: #00A99D; */
     color: #000;
     @media(max-width: 576px){
-       font-size: 2rem;
-       line-height: 4rem;
-       margin-top: 1.3rem;
+       font-size: 1.5rem;
+       margin-top: 1.5rem;
     }
 }
 .projects {
@@ -60,33 +59,34 @@
 .p1-header{
     font-size: 2rem;
     font-weight: 600;
-    line-height: 6rem;
+    line-height: normal;
     color: #c97d13;
+    margin-bottom: 1rem;
     @media(max-width: 576px){
-        font-size: 1.5rem;
-        line-height: 3rem;
+        font-size: 1.3rem;
+        
     }
 }
 .p1-text {
     font-size: 1.6rem;
-    line-height: 2.5rem;
+    line-height: normal;
     font-weight: 500;
     margin-bottom: 1rem;
     @media(max-width: 576px){
         font-size: 1.2rem;
-        line-height: 2rem;
+        
     }
 }
 .p1-text2 {
     font-size: 1.5rem;
     font-weight: bold;
-    line-height: 2rem;
+    line-height: normal;
     margin-bottom: 1rem;
     color: #c97d13;
     cursor: pointer;
     @media(max-width: 576px){
         font-size: 1rem;
-        line-height: 1.5rem;
+        
     }
     
 }
