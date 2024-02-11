@@ -93,13 +93,13 @@
     z-index: 1000;
 }
 .open {
+    color: red;
+    font-size: 4rem;
+    cursor: pointer;
     display: none;
     @media (max-width:769px){
         display: block;
-        color: #ffffff;
-        font-size: 4rem;
-        cursor: pointer;
-    }
+        }
 }
 .none {
     display: none;
