@@ -31,10 +31,11 @@ const Navbar = ()=>{
                 <li className="navbar-item"><Link to="project" spy={true} smooth={true} offset={-100} duration={500} className="navbar-link">Projects</Link></li>
                 <li className="navbar-item"><Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className="navbar-link">Contact me</Link></li>
             </ul>
-            <BsListNested
+            {/* <BsListNested
               className={`${isClick ? 'none' : ''} open`}
               onClick={() => setIsClick(true)}
-      />
+      /> */}
+      <p className="open">iswgh</p>
       {
         isClick ? (
           <div className='ham-div'>
