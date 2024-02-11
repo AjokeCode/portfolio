@@ -8,7 +8,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 const Navbar = ()=>{
     const [navbar, setNavbar] = useState(false);
-    const [isTrue, setIsTrue] = useState(false)
+    const [isClick, setIsClick] = useState(false);
     const changeBackground = ()=>{
         if(window.scrollY >= 80){
             setNavbar(true)
@@ -31,25 +31,27 @@ const Navbar = ()=>{
                 <li className="navbar-item"><Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className="navbar-link">Contact me</Link></li>
             </ul>
             <BsListNested
-            className={`${isTrue ? 'none' : ''} open`}
-            onClick={() => setIsTrue(true)}
+              className={`${isClick ? 'none' : ''} open`}
+              onClick={() => setIsClick(true)}
+      />
+          {
+            isClick ? (
+              <div className='ham-div'>
+          <AiOutlineClose
+              className="close"
+              onClick={() => setIsClick(false)}
             />
-
-            {
-                isTrue ? (
-                    <>
-                <div className="mobile">
-                <AiOutlineClose onClick={()=> setIsTrue(false)} className="close"/>
                 <ul className="navbar-lists">
                 <li className="navbar-items" ><Link to="home" spy={true} smooth={true}  duration={500} className="navbar-links">Home</Link></li>
                 <li className="navbar-items"><Link to="about" spy={true} smooth={true} offset={-150} duration={500} className="navbar-links">About</Link></li>
                 <li className="navbar-items"><Link to="project" spy={true} smooth={true} offset={-100} duration={500} className="navbar-links">Projects</Link></li>
                 <li className="navbar-items"><Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className="navbar-links">Contact me</Link></li>
-            </ul>
-                </div> </> ) : ('')
-            }
-
+                </ul>
+          </div>
+            ) : (<></>)
+          }
         </div>
     )
 }
 export default Navbar;
+

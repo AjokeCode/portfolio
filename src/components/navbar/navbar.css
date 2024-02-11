@@ -50,15 +50,7 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    @media(min-width: 577px) and (max-width:767px){
-        display: none;
-       
-    }
-    @media(min-width: 768px) and (max-width:991px){
-        font-size: 1.6rem;
-           
-    }
-    @media(max-width: 576px){
+    @media(max-width: 769px){
         display: none;
     }
 }
@@ -91,6 +83,7 @@
     flex-direction: column;
     background-color: #FFFFFF;
     margin-right: -2rem;
+    z-index: 1000;
 }
 .open {
     display: none;
@@ -99,6 +92,9 @@
         color: #fff;
         font-size: 4rem;
         cursor: pointer;
+    }
+    @media(max-width: 576px){
+        font-size: 3.5rem;
     }
 }
 .none {
