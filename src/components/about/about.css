@@ -21,7 +21,7 @@
     line-height: normal;
     text-align: center;
     @media(max-width: 769px){
-        font-size: 1rem;
+        font-size: 1.3rem;
         
     }
 }
