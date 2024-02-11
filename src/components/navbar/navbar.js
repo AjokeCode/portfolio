@@ -8,6 +8,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 const Navbar = ()=>{
     const [navbar, setNavbar] = useState(false);
+    const [isTrue, setIsTrue] = useState(false)
     const changeBackground = ()=>{
         if(window.scrollY >= 80){
             setNavbar(true)
@@ -16,9 +17,9 @@ const Navbar = ()=>{
         }
     }
     window.addEventListener('scroll', changeBackground)
-    const [isTrue, setIsTrue] = useState(false)
+    
     return(
-        <header className={navbar ? "navbar active" : "navbar"}>
+        <div className={navbar ? "navbar active" : "navbar"}>
             <div className="navbar-left">
             <img src={img} alt='img' className="navbar-left-img"/>
             <h1 className="navbar-left-header">Ajoke_Code</h1>
@@ -36,7 +37,7 @@ const Navbar = ()=>{
 
             {
                 isTrue ? (
-
+                    <>
                 <div className="mobile">
                 <AiOutlineClose onClick={()=> setIsTrue(false)} className="close"/>
                 <ul className="navbar-lists">
@@ -45,10 +46,10 @@ const Navbar = ()=>{
                 <li className="navbar-items"><Link to="project" spy={true} smooth={true} offset={-100} duration={500} className="navbar-links">Projects</Link></li>
                 <li className="navbar-items"><Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className="navbar-links">Contact me</Link></li>
             </ul>
-                </div>) : ''
+                </div> </> ) : ('')
             }
 
-        </header>
+        </div>
     )
 }
 export default Navbar;

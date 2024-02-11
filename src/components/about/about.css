@@ -2,27 +2,26 @@
     padding: 4rem;
     background-color: #fff;
     border-bottom: #92590a 2px solid;
-    @media(max-width: 576px){
+    @media(max-width: 769px){
         padding: 2rem;
     }
 }
 .about-header {
     font-size: 3rem;
-    line-height: 8rem;
+    line-height: normal;
     font-weight: 600;
     text-align: center;
-    @media(max-width: 576px){
+    @media(max-width: 769px){
         font-size: 1.5rem;
-        line-height: 4rem;
     }
 }
 .about-div-text{
     font-size: 2rem;
-    line-height: 3.5rem;
+    line-height: normal;
     text-align: center;
-    @media(max-width: 576px){
+    @media(max-width: 769px){
         font-size: 1rem;
-        line-height: 1.6rem;
+        
     }
 }
 .about-header-2 {
@@ -31,7 +30,7 @@
     text-align: center;
     font-weight: bold;
     margin: 1.5rem 0  2.5rem 0;
-    @media(max-width: 576px){
+    @media(max-width: 769px){
        font-size: 1.2rem;
        line-height: 2rem;
     }
@@ -50,7 +49,7 @@
     margin-left: 2rem;
     font-size: 2rem;
     cursor: pointer;
-    @media(max-width: 576px){
+    @media(max-width: 769px){
         padding: .5rem 1rem;
         font-size: 1rem;
     }
