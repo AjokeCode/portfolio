@@ -5,7 +5,7 @@ import img3 from './natour.PNG';
 import img4 from './getlinked.PNG';
 import img5 from './trackit.PNG';
 import img6 from './zamgleam.PNG';
-import img7 from './empylo-2.PNG';
+import img7 from './empylo22.PNG';
 
 const Project =()=>{
     const handleURL =(url)=>{
@@ -36,7 +36,7 @@ const Project =()=>{
                         <p className='p1-text'>A responsive React App for innovative solutions for both individuals and organisations built for empylo company in London.</p>
                         <p className='p1-text'>Technologies used: Reactjs and vanilla css</p>
                         <a className='p1-text2' href='' onClick={()=> handleURL('https://github.com/AjokeCode/Empylo-2')}>Github link</a>
-                        <a className='p1-text2' href='' onClick={()=> handleURL('empylo-2.vercel.app')}>Live link</a>
+                        <a className='p1-text2' href='' onClick={()=> handleURL('https://empylo-2.vercel.app')}>Live link</a>
                     </div>
                 </div>
                 <div className='project-1'>
