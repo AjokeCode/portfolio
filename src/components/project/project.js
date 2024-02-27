@@ -5,7 +5,7 @@ import img3 from './natour.PNG';
 import img4 from './getlinked.PNG';
 import img5 from './trackit.PNG';
 import img6 from './zamgleam.PNG';
-import img7 from './empylo22.PNG';
+import img7 from './emplyo22.PNG';
 
 const Project =()=>{
     const handleURL =(url)=>{
