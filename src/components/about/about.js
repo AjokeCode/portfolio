@@ -1,4 +1,4 @@
-import pdf from './resume.pdf';
+import pdf from './Resume.pdf';
 import './about.css';
 
 const About = ()=>{

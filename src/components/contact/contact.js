@@ -18,7 +18,7 @@ const Contact = ()=>{
             <img src={img2} alt='img' className='contact-img' onClick={()=> handleURL('https://wa.me/2349039367997')}/>
             <img src={img} alt='img' className='contact-img' onClick={()=> handleURL('https://www.linkedin.com/in/alabi-ruqayyah-damilola-090832256/')}/>
             <img src={img3} alt='img' className='contact-img' onClick={()=>handleURL('https://twitter.com/ajoke_code')}/>
-            <img src={img4} alt='img' className='mail contact-img' onClick={(e) => {window.location.href ='mailto:ruqayyahalabi536@gmail.com';}}/>
+            <img src={img4} alt='img' className='mail contact-img' onClick={(e) => {window.location.href ='mailto:ajokecode283@gmail.com';}}/>
             </div>
     </div>
     )
