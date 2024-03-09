@@ -20,7 +20,7 @@ const Navbar = ()=>{
     
     return (
         <>        
-        <div className={navbar ? "navbar active" : "navbar"}>
+        <header className={navbar ? "navbar active" : "navbar"}>
             <div className="navbar-left">
             <img src={img} alt='img' className="navbar-left-img"/>
             <h1 className="navbar-left-header">Ajoke_Code</h1>
@@ -32,9 +32,9 @@ const Navbar = ()=>{
                 <li className="navbar-item"><Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className="navbar-link">Contact me</Link></li>
             </ul>
             
-            <p className="open">
-                pio
-            </p>
+            <BsListNested
+              className={`${isClick ? 'none' : ''} open`}
+              onClick={() => setIsClick(true)} />
       {
         isClick ? (
           <div className='ham-div'>
@@ -48,7 +48,7 @@ const Navbar = ()=>{
         </div>
         ) : (<></>)
       }
-      </div>
+      </header>
       </>
 )
 }
