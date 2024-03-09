@@ -33,7 +33,7 @@ const Navbar = ()=>{
             </ul>
             
             <BsListNested
-              className={`${isClick ? 'none' : ''} open`}
+              className= 'open'
               onClick={() => setIsClick(true)} />
       {
         isClick ? (
