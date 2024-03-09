@@ -10,7 +10,7 @@ function ParticlesBackground(){
         options={{
             background: {
                 color: {
-                    value: "#000",
+                    value: "#00A99D",
                 },
             },
             fullScreen:{

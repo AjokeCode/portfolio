@@ -7,8 +7,17 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 const Header = ()=>{
     const [isClick, setIsClick] = useState(false)
+    const [navbar, setNavbar] = useState(false)
+    const changeBackground = ()=>{
+      if(window.scrollY >= 120){
+        setNavbar(true)
+      }else{
+        setNavbar(false)
+      }
+    }
+    window.addEventListener('scroll', changeBackground)
     return(
-        <header className="header">
+        <header className={navbar ? "header active" : "header"}>
             <div className="header-1">
                 <img src={img} alt='img' className='header-1-img'/>
             <h1 className="header-1-title">

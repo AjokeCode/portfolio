@@ -25,7 +25,7 @@
     }
 }
 .hero-span {
-    color: #FFB347;
+    color: #ecab50;
 }
 .hero-header-2 {
     margin: 3rem 0;
@@ -42,7 +42,7 @@
 
 }
 .hero-span-2 {
-    color: #FFB347;
+    color: #ecab50;
 }
 .hero-btns {
     display: flex;
@@ -51,7 +51,7 @@
 .hero-btn {
     padding: 1.4rem 2.2rem;
     background-color: #ffffff;
-    color: #FFB347;
+    color: #ecab50;
     border-radius: 8px;
     margin-left: 2rem;
     border: none;
