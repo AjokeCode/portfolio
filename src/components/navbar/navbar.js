@@ -18,8 +18,8 @@ const Header = ()=>{
             <ul className="header-list">
                 <li className="header-item"><Link to="home" spy={true} smooth={true} offset={-100} duration={500} className="header-link">Home</Link></li>
                 <li className="header-item"><Link to="about" spy={true} smooth={true} offset={-150} duration={500} className="header-link">About</Link></li>
-                <li className="header-item"><Link to="features" spy={true} smooth={true} offset={-150} duration={500} className="header-link">Features</Link></li>
-                <li className="header-item"><Link to="download" spy={true} smooth={true} offset={-100} duration={500} className='header-link'>Download</Link></li>
+                <li className="header-item"><Link to="project" spy={true} smooth={true} offset={-150} duration={500} className="header-link">Project</Link></li>
+                <li className="header-item"><Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className='header-link'>Contact</Link></li>
             </ul>
             
             <BsListNested
@@ -36,8 +36,8 @@ const Header = ()=>{
             <ul className='header-lists'>
               <li className='header-items'><Link to="hero" spy={true} smooth={true} offset={-100} duration={500} className='header-links'>Home</Link></li>
               <li className='header-items'><Link to="about" spy={true} smooth={true} offset={-150} duration={500} className='header-links'>About</Link></li>
-              <li className='header-items'><Link to="features" spy={true} smooth={true} offset={-150} duration={500} className='header-links'>Features</Link></li>
-              <li className='header-items'><Link to="download" spy={true} smooth={true} offset={-100} duration={500} className='header-links'>Download</Link></li>
+              <li className='header-items'><Link to="features" spy={true} smooth={true} offset={-150} duration={500} className='header-links'>Project</Link></li>
+              <li className='header-items'><Link to="download" spy={true} smooth={true} offset={-100} duration={500} className='header-links'>Contact</Link></li>
 
             </ul>
           </div>

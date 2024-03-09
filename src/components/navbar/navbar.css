@@ -96,7 +96,7 @@
     }
 }
 .close {
-    color: #00A99D;
+    color: #c97d13;
     font-size: 4rem;
     cursor: pointer;
     align-self: flex-end;
@@ -119,7 +119,7 @@
     list-style: none;
 }
 .header-links {
-    color: #00A99D;
+    color: #c97d13;
     text-decoration: none;
 }
 .header-items {
@@ -129,7 +129,4 @@
 }
 .none {
     display: none;
-}
-.spinner {
-    z-index: 1000;
 }
