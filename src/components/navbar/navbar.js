@@ -18,7 +18,6 @@ const Navbar = ()=>{
     }
     window.addEventListener('scroll', handleScroll)
     
-    
     return (
         <>        
         <div className={navbar ? "navbar active" : "navbar"}>
@@ -33,9 +32,9 @@ const Navbar = ()=>{
                 <li className="navbar-item"><Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className="navbar-link">Contact me</Link></li>
             </ul>
             
-            <BsListNested
-              className={`${isClick ? 'none' : ''} open`}
-              onClick={() => setIsClick(true)} />
+            <p className="open">
+                pio
+            </p>
       {
         isClick ? (
           <div className='ham-div'>
