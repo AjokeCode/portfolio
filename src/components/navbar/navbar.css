@@ -96,14 +96,14 @@
     }
 }
 .close {
-    color: #c97d13;
+    color: #00A99D;
     font-size: 4rem;
     cursor: pointer;
     align-self: flex-end;
 }
 .ham-div {
     padding: 24rem 0 2rem 0;
-    width: 34rem;
+    width: 100%;
     height: 54rem;
     display: flex;
     flex-direction: column;
@@ -119,7 +119,7 @@
     list-style: none;
 }
 .header-links {
-    color: #c97d13;
+    color: #00A99D;
     text-decoration: none;
 }
 .header-items {
