@@ -1,132 +1,260 @@
 .header {
-    background-color: transparent;
-    backdrop-filter: blur(8px);
-    display: flex;
-    justify-content: space-between;
-    height: 12rem;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 500;
-    padding: 0 6rem;
+  background-color: transparent;
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: space-between;
+  height: 12rem;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  padding: 0 6rem;
 
-
-    @media(max-width: 769px){
-        padding:  0 3rem;
-        height: 10rem;
-    }
+  @media (max-width: 769px) {
+    padding: 0 3rem;
+    height: 10rem;
+  }
 }
 .header.active {
-    background-image: linear-gradient(to right bottom, #00A99D, #B6CDE2);
+  background-image: linear-gradient(to right bottom, #00a99d, #b6cde2);
 }
 .header-1 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .header-1-img {
-    width: 5rem;
-    @media(max-width:769px){
-        width: 3rem;
-         
-    }
+  width: 5rem;
+  @media (max-width: 769px) {
+    width: 3rem;
+  }
 }
 .header-1-title {
-    font-size: 3.2rem;
-    font-weight: 700;
-    line-height: 3.684rem;
-    color: #ffffff;
-    margin-left: 1.5rem;
-    @media(max-width:769px){
-        font-size: 2.5rem;
-        line-height: 3rem;
-         
-    }
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.684rem;
+  color: #ffffff;
+  margin-left: 1.5rem;
+  @media (max-width: 769px) {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
 }
 .header-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    @media(max-width: 769px){
-        display: none;
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  @media (max-width: 769px) {
+    display: none;
+  }
 }
 .header-item {
-    margin-left: 2rem;
-    font-size: 1.6rem;
-    line-height: 2.112rem;
-    font-weight: 600;
-    cursor: pointer;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  line-height: 2.112rem;
+  font-weight: 600;
+  cursor: pointer;
 }
 .header-link {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 .header-3 {
-    padding: 1rem 3rem;
-    border-radius: 8px;
-    background-color: #ffffff;
-    color: black;
-    font-size: 1.4rem;
-    line-height: 1.848rem;
-    font-weight: 500;
-    border: none;
-    display: block;
-    cursor: pointer;
-    @media(max-width: 769px){
-        display: none;
-    }
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 1.4rem;
+  line-height: 1.848rem;
+  font-weight: 500;
+  border: none;
+  display: block;
+  cursor: pointer;
+  @media (max-width: 769px) {
+    display: none;
+  }
 }
 .open {
-    display: none;
-    @media(min-width: 577px) and (max-width:767px){
-        display: block;
-        font-size: 4rem;
-        cursor: pointer;
-        color: #ffffff;
-        
-       
-}
-    @media(max-width: 576px){
+  display: none;
+  @media (min-width: 577px) and (max-width: 767px) {
+    display: block;
+    font-size: 4rem;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  @media (max-width: 576px) {
     display: block;
     font-size: 3.5rem;
     cursor: pointer;
-    color: #ffffff;
-    }
+  }
 }
 .close {
-    color: #00A99D;
-    font-size: 4rem;
-    cursor: pointer;
-    align-self: flex-end;
+  color: #00a99d;
+  font-size: 4rem;
+  cursor: pointer;
+  align-self: flex-end;
 }
 .ham-div {
-    padding: 24rem 0 2rem 0;
-    width: 100%;
-    height: 54rem;
-    display: flex;
-    flex-direction: column;
-    background-color: #FFFFFF;
-    margin-right: -2rem;
-    z-index: 1000;
+  padding: 24rem 0 2rem 0;
+  width: 100%;
+  height: 54rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-right: -2rem;
+  z-index: 1000;
 }
-.header-lists{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
+.header-lists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
 }
 .header-links {
-    color: #00A99D;
-    text-decoration: none;
+  color: #00a99d;
+  text-decoration: none;
 }
 .header-items {
-    margin-bottom: 2rem;
-    font-size: 1.8rem;
-    line-height: 2.7rem;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
 }
 .none {
-    display: none;
+  display: none;
 }
+
+/* "use client";
+
+import Link from "next/link";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect, useState } from "react";
+import { BsListNested } from "react-icons/bs";
+import { AiOutlineClose } from "react-icons/ai";
+import "./header.css";
+
+const Header = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  const [isClick, setIsClick] = useState(false);
+  const transformstyle = {
+    transform: isClick ? "scale(1)" : "",
+    transition: "all .8s cubic-bezier(0.87, 0, 0.07, 1)",
+  };
+  return (
+    <>
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        className="md:flex hidden justify-between items-center md:h-20 h-16 w-full md:px-16 px-8 border-b border-zinc-200"
+        style={{
+          backgroundColor: "#FFFFFB",
+          fontFamily: "Bricolage Grotesque, sans-serif",
+        }}
+      >
+        <h1
+          className="md:text-2xl text-xl font-bold opacity-50 md:px-0"
+          style={{ color: "#04021B" }}
+        >
+          SkillAfrica
+        </h1>
+        <ul className="text-sm font-normal md:flex justify-between hidden">
+          <li>
+            <a href="#findfreelancers">Find freelancers</a>
+          </li>
+          <li className="ml-6">
+            <a href="#events">Events</a>
+          </li>
+          <li className="ml-6">
+            <a href="#blog">Blogs</a>
+          </li>
+          <li className="ml-6">
+            <a href="#jobs">Jobs</a>
+          </li>
+          <li className="ml-6">
+            <a href="#about">About us</a>
+          </li>
+        </ul>
+        <ul className="md:flex hidden justify-between text-sm font-normal items-center">
+          <li className="text-sm font-normal">
+            <Link href={"/login"}>Login</Link>
+          </li>
+          <li
+            className="font-medium px-6 py-2 bg-red-700 text-white ml-6"
+            style={{ backgroundColor: "#DC5F00", borderRadius: "40px" }}
+          >
+            <a href="#signin">Sign in</a>
+          </li>
+        </ul>
+      </div>
+
+      {/* mobile */
+/* <div
+        className="flex md:hidden justify-between items-center px-8 h-16 w-full border-b border-zinc-200"
+        style={{
+          backgroundColor: "#FFFFFB",
+          fontFamily: "Bricolage Grotesque, sans-serif",
+        }}
+      >
+        <h1
+          className="text-xl font-bold opacity-50"
+          style={{ color: "#04021B" }}
+        >
+          SkillAfrica
+        </h1>
+
+        {!isClick ? (
+          <BsListNested
+            className={`${
+              isClick ? "hidden" : ""
+            } text-red-400 md:hidden block text-4xl cursor-pointer`}
+            onClick={() => setIsClick(true)}
+          />
+        ) : (
+          <nav
+            className="fixed inset-0 flex flex-col items-center justify-center h-screen z-[1500]"
+            style={{
+              backgroundColor: "#111827",
+            }}
+          >
+            <AiOutlineClose
+              className="text-red-400 text-2xl absolute top-4 right-12 cursor-pointer"
+              onClick={() => setIsClick(false)}
+            />
+            <ul
+              className="space-y-8 text-center text-white"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
+              <li>
+                <Link href={"/findfreelancers"}>Find freelancers</Link>
+              </li>
+              <li>
+                <Link href={"/events"}>Events</Link>
+              </li>
+              <li>
+                <Link href={"/blogs"}>Blogs</Link>
+              </li>
+              <li>
+                <Link href={"/jobs"}>Jobs</Link>
+              </li>
+              <li>
+                <Link href={"/about"}>About us</Link>
+              </li>
+              <li>
+                <Link href={"/login"}>Login</Link>
+              </li>
+              <li>
+                <Link href={"/sign in"}>Sign in</Link>
+              </li>
+            </ul>
+          </nav>
+        )}
+      </div>
+    </>
+  );
+};
+export default Header; */
