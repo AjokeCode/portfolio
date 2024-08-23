@@ -6,6 +6,7 @@ import img4 from "./getlinked.PNG";
 import img5 from "./trackit.PNG";
 import img6 from "./zamgleam.PNG";
 import img7 from "./emplyo22.PNG";
+import img8 from "./agromart.PNG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -21,6 +22,43 @@ const Project = () => {
     <div className="project" id="project">
       <h1 className="project-header">My Projects so far</h1>
       <div className="projects">
+        <div className="project-1">
+          <div
+            className="project-left"
+            data-aos="zoom-in-right"
+            data-aos-duration="1500"
+          >
+            <img src={img8} alt="agromart" className="project-img" />
+          </div>
+          <div
+            className="project-right"
+            data-aos="zoom-in-left"
+            data-aos-duration="1500"
+          >
+            <h2 className="p1-header">Agromart</h2>
+            <p className="p1-text">
+              A platform that connect farmers and consumers for fresh,
+              sustainable products. It eradicates middlemen's extortation!
+            </p>
+            <p className="p1-text">
+              Technologies used: Reactjs and vanilla css
+            </p>
+            <a
+              className="p1-text2"
+              href=""
+              onClick={() => handleURL("https://github.com/AjokeCode/agromart")}
+            >
+              Github link
+            </a>
+            <a
+              className="p1-text2"
+              href=""
+              onClick={() => handleURL("https://agromart.vercel.app/")}
+            >
+              Live link
+            </a>
+          </div>
+        </div>
         <div className="project-1">
           <div
             className="project-left"
