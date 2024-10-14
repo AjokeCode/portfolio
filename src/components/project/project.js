@@ -8,6 +8,7 @@ import img6 from "./zamgleam.PNG";
 import img7 from "./emplyo22.PNG";
 import img8 from "./agromart.PNG";
 import img9 from "./clothy.PNG";
+import img10 from "./academix.PNG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -30,7 +31,7 @@ const Project = () => {
             data-aos="zoom-in-right"
             data-aos-duration="1500"
           >
-            <img src={img1} alt="bds" className="project-img" />
+            <img src={img10} alt="bds" className="project-img" />
           </div>
           <div
             className="project-right"
