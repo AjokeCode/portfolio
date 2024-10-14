@@ -23,6 +23,50 @@ const Project = () => {
     <div className="project" id="project">
       <h1 className="project-header">My Projects so far</h1>
       <div className="projects">
+
+      <div className="project-1">
+          <div
+            className="project-left"
+            data-aos="zoom-in-right"
+            data-aos-duration="1500"
+          >
+            <img src={img1} alt="bds" className="project-img" />
+          </div>
+          <div
+            className="project-right"
+            data-aos="zoom-in-left"
+            data-aos-duration="1500"
+          >
+            <h2 className="p1-header">Academix</h2>
+            <p className="p1-text">
+              Academix is an online platform that cater for institutions needs including resources, marketplace,
+              finding houses and roommates and so on, i am part of the frontend team.
+              
+            </p>
+            <p className="p1-text">
+              Technologies used: Typescript, Zustand, Nextjs, Tailwindcss, Graphql.
+            </p>
+            <a
+              className="p1-text2"
+              href=""
+              onClick={() =>
+                handleURL("https://github.com/hazeezet/archive-frontend")
+              }
+            >
+              Github link
+            </a>
+            <a
+              className="p1-text2"
+              href=""
+              onClick={() =>
+                handleURL("https://academix.syntanext.com/")
+              }
+            >
+              Live link
+            </a>
+          </div>
+        </div>
+
         <div className="project-1">
           <div
             className="project-left"
