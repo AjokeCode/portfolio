@@ -40,8 +40,13 @@ const Project = () => {
           >
             <h2 className="p1-header">Academix</h2>
             <p className="p1-text">
-              Academix is an online platform that cater for institutions needs including resources, marketplace,
-              finding houses and roommates and so on, i am part of the frontend team.
+              Syntanext is an innovative educational web app designed
+              to meet all the needs of institution students. It provides
+              academic resources across all faculties, offers a secure space
+              for storing resources, and includes a marketplace where users
+              can buy and sell goods with ease. Additionally, Syntanext helps
+              students find roommates and search for housing,
+              making it a comprehensive solution for campus life
               
             </p>
             <p className="p1-text">
