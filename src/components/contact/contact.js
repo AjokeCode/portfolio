@@ -42,7 +42,7 @@ const Contact = () => {
           className="contact-img"
           onClick={() =>
             handleURL(
-              "https://www.linkedin.com/in/alabi-ruqayyah-damilola-090832256/"
+              "https://www.linkedin.com/in/alabiruqayyah"
             )
           }
         />
