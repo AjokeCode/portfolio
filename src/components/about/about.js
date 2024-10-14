@@ -21,16 +21,13 @@ const About = () => {
       <h1 className="about-header">About me</h1>
       <div className="about-div">
         <p className="about-div-text">
-          I am Alabi Ruqayyah Damilola, a front-end developer who takes pleasure
-          in crafting innovative web applications and immersing myself in
-          emerging technologies. My strategy centers on user-focused
-          issue-solving and design, where inventiveness seamlessly merges with
-          practicality. I find fulfillment in delivering technological solutions
-          that elevate people's lives and forge lasting experiences. Beyond the
-          code's confines, I'm dedicated to ongoing personal and career
-          development, constantly challenging limits to hone my expertise. Are
-          you prepared to see your dream website come to life? Let's collaborate
-          and turn it into a reality!
+          I'm Alabi Ruqayyah Damilola, a passionate front-end developer with a flair for building
+          web applications that are not only innovative but also impactful. I thrive on blending
+          creativity with functionality, ensuring every project I touch enhances user experiences
+          and solves real-world problems. For me, development is more than just writing code—it's
+          about delivering solutions that transform lives and leave a lasting impression. I'm committed
+          to continuous learning and growth, always pushing the boundaries of what's possible in tech.
+          Ready to bring your vision to life? Let's team up and make your dream website a reality!
         </p>
         <h2 className="about-header-2">
           "Evoking ideas into sophisticated solutions."
