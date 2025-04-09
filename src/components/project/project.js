@@ -9,6 +9,7 @@ import img7 from "./emplyo22.PNG";
 import img8 from "./agromart.PNG";
 import img9 from "./clothy.PNG";
 import img10 from "./academix.PNG";
+import img11 from "./arriaayah.png"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -25,7 +26,7 @@ const Project = () => {
       <h1 className="project-header">My Projects so far</h1>
       <div className="projects">
 
-      <div className="project-1">
+      {/* <div className="project-1">
           <div
             className="project-left"
             data-aos="zoom-in-right"
@@ -66,6 +67,52 @@ const Project = () => {
               href=""
               onClick={() =>
                 handleURL("https://academix.syntanext.com/")
+              }
+            >
+              Live link
+            </a>
+          </div>
+        </div> */}
+
+<div className="project-1">
+          <div
+            className="project-left"
+            data-aos="zoom-in-right"
+            data-aos-duration="1500"
+          >
+            <img src={img11} alt="bds" className="project-img" />
+          </div>
+          <div
+            className="project-right"
+            data-aos="zoom-in-left"
+            data-aos-duration="1500"
+          >
+            <h2 className="p1-header">Arriaayah</h2>
+            <p className="p1-text">
+              Arriaayah is an islamic educational platform that provides a wide range of
+              resources and services to help students learn and grow in their faith. Built with 
+              a focus on user experience, the platform offers a variety of features, including
+              admin dashboard (only admin can access), student dashboard, and a landing page where new candidates 
+              can enrol. I led the frontend team in building the platform, ensuring that it was user-friendly and visually appealing
+              collaborating closely with the backend team and UI designer to ensure seamless integration of all features.              
+            </p>
+            <p className="p1-text">
+              Technologies used: Typescript, Zustand, Nextjs, Tailwindcss, Nodejs.
+            </p>
+            <a
+              className="p1-text2"
+              href=""
+              onClick={() =>
+                handleURL("https://github.com/AjokeCode/Ar-Riaayah-Academy")
+              }
+            >
+              Github link
+            </a>
+            <a
+              className="p1-text2"
+              href=""
+              onClick={() =>
+                handleURL("https://arriaayah.com/")
               }
             >
               Live link
